@@ -101,7 +101,7 @@ class Adventurer extends Character {
     this.xp = 0;
     console.log(`${this.name} leveled up to level ${this.level}!`);
   }
-  
+
   // PART SIX - Developing Skills
   //Create a duel() method
   duel(opponent) {
@@ -244,3 +244,6 @@ const healers = new AdventurerFactory("Healer");
 const bill = new Healer("Bill", 30);
 
 bill.displayLevel();
+
+//====================PART SEVEN: Adventure Forth====================//
+console.log("Time didn't allow the build of the characters interactions. TBD...");
